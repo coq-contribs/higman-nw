@@ -1,0 +1,10 @@
+Name: HigmanNW
+Title: A program from an A-translated impredicative proof of Higman's Lemma
+Author: Hugo Herbelin
+Institution: INRIA Rocquencourt
+Description: 
+   The file Higman.v formalizes an A-translated version of
+   Nash-Williams impredicative and classical proof of Higman's lemma 
+   for a two-letter alphabet.
+   A constructive and impredicative program can be extracted from the proof.
+Keywords: A-translation, Higman's Lemma, Impredicativity, System F, Extraction
