@@ -1,5 +1,5 @@
 -R . HigmanNW
--impredicative-set
+-arg -impredicative-set
 Higman.v
 -custom "$(COQBIN)coqtop $(COQLIBS) $(COQFLAGS) -silent -batch -load-vernac-source Extract.v" Higman.vo higman.ml
 -custom "$(CAMLOPTLINK) -o higman higman.mli higman.ml main.ml" higman.ml higman
@@ -7,5 +7,5 @@ Higman.v
        "@echo '***** test: running Higman proof on one example *****'
 	./higman 101 0110 01010
 	@echo '****************** End of test **********************'"
-  "" test 
+  "higman" test 
 
