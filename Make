@@ -1,6 +1,8 @@
 -R . HigmanNW
 -arg -impredicative-set
+
 Higman.v
+
 -extra higman.ml Higman.vo "$(COQBIN)coqtop $(COQLIBS) $(COQFLAGS) -silent -batch -load-vernac-source Extract.v"
 -extra higman higman.ml "$(CAMLOPTLINK) -o higman higman.mli higman.ml main.ml"
 -extra test higman
