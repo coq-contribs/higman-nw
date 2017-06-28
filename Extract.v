@@ -15,5 +15,6 @@
 
 
 Require Import Higman.
+Require Extraction.
 Set Extraction AccessOpaque.
 Extraction "higman.ml" higman.
